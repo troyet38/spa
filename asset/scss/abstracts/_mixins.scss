@@ -1,0 +1,22 @@
+
+@mixin btn1($bg, $color) {
+    display: inline-block;
+    
+    padding: 20px 15px;
+    background-color: $bg;
+    border: 1px solid $bg;
+    color: $color;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    top:220px;
+    left:250px;
+}
+
+
+@mixin card(){
+    
+    border: none;
+    margin: 50px 0px 100px 0px;
+    
+}

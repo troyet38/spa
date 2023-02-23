@@ -1,0 +1,183 @@
+.logo1 {
+  width: 150px;
+  margin: 10px 0px 0px 0px;
+}
+
+.chiens {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw;
+  height: 300px;
+  margin: 0px 30px 0px 0px;
+}
+
+.chats {
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 300px;
+  background-size: cover;
+}
+
+.card-img-top {
+  width: 10vw;
+}
+
+.card-img-top1 {
+  width: 20vw;
+  margin: 50px 0px 0px 0px;
+}
+
+.logo2 {
+  width: 30vw;
+  background-color: white;
+  position: relative;
+  left: 600px;
+  padding: 0px 20px 0px 20px;
+}
+
+body {
+  background-color: white;
+}
+
+.text1 {
+  margin: 70px 0px 50px 0px;
+}
+
+.text1::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: crimson;
+  margin: 0 auto;
+  margin-top: 1rem;
+  transition: all 0.2s ease-in;
+}
+
+.text1:hover::after {
+  width: 20%;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 20px 15px;
+  background-color: #22234F;
+  border: 1px solid #22234F;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  position: relative;
+  top: 220px;
+  left: 250px;
+}
+
+.btn1:hover {
+  display: inline-block;
+  padding: 20px 15px;
+  background-color: rgba(0, 0, 255, 0.4);
+  border: 1px solid rgba(0, 0, 255, 0.4);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  position: relative;
+  top: 220px;
+  left: 250px;
+}
+
+.card {
+  border: none;
+  margin: 50px 0px 100px 0px;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: crimson;
+  margin: 0 auto;
+  margin-top: 1rem;
+  transition: all 0.2s ease-in;
+}
+
+.card:hover::after {
+  width: 50%;
+}
+
+.presentation {
+  background-color: rgb(241, 214, 214);
+  margin: 20px 0px 30px 0px;
+}
+
+.fs-3 {
+  margin: 10px 0px 0px 0px;
+}
+
+.text2::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: crimson;
+  margin: 0 auto;
+  margin-top: 0rem;
+  transition: all 0.2s ease-in;
+}
+
+.text2:hover::after {
+  width: 10%;
+}
+
+.card-title1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+  padding: 10px 0px 16px;
+  margin: 0px 15px;
+}
+
+footer {
+  background-color: rgb(241, 214, 214);
+  margin: 200px 0px 30px 0px;
+}
+
+.footercolor {
+  background-color: #22234F;
+  margin: 0px 100px 0px 100px;
+  color: white;
+}
+
+.des {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 0px 0px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.bi1 {
+  color: red;
+  background-color: white;
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.bi {
+  color: red;
+}
+
+.nav {
+  margin: 0px 100px 0px 200px;
+}
+
+.nav-link {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
